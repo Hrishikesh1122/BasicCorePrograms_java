@@ -18,5 +18,6 @@ public class FlipCoin {
 	int tailPer = (tail*100)/num;
 	System.out.println("Heads occured "+head+" times, tails occured "+tail+" times");
 	System.out.println("% Heads: "+headPer+"\n% Tails: "+tailPer);
+	sc.close();
 }
 }
